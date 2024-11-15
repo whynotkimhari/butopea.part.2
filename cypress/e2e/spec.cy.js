@@ -1,18 +1,13 @@
+const BUTOPEA = 'https://butopea.com'
+
 describe('Check if the main square contains some text', () => {
   it('Check', () => {
     // Visit the page first
-    cy.visit('https://butopea.com/')
+    cy.visit(BUTOPEA)
 
-    cy.get('#home div.banner-square-column')
-
-      // There are 3 banners, this task need the center one
-      // so skip the first, and take the second
-      .first()
-      .next()
-
-      // This is where the text is placed
-      .find('div.banner-square-overlay-heading')
-      .children('p')
+    // There are 3 banners, this task need the center one
+    // so skip the first, and take the second
+    cy.get('#home div.banner-square-column:nth-child(2) div.banner-square-overlay-heading p')
 
       // Get the text, check if it is something (not empty) by using regex
       .invoke('text')
@@ -34,18 +29,12 @@ describe('Check if the main square contains some text', () => {
 describe('Check if the main square contains a button', () => {
   it('Check', () => {
     // Visit the page first
-    cy.visit('https://butopea.com/')
+    cy.visit(BUTOPEA)
 
-    cy.get('#home div.banner-square-column')
-
-      // There are 3 banners, this task need the center one
-      // so skip the first, and take the second
-      .first()
-      .next()
-
-      // This is where the button is placed
-      .find('div.banner-square-overlay-cta')
-      .children('button')
+    // There are 3 banners, this task need the center one
+    // so take the second
+    // then jump to where the button is
+    cy.get('#home div.banner-square-column:nth-child(2) div.banner-square-overlay-cta button')
 
       // Take the text of button (label)
       // Check if it is something (not empty) by using regex
@@ -68,16 +57,11 @@ describe('Check if the main square contains a button', () => {
 describe('Check if the image exists in the right square', () => {
   it('Check', () => {
     // Visit the page first
-    cy.visit('https://butopea.com/')
+    cy.visit(BUTOPEA)
 
-
-    cy.get('#home div.banner-square-column')
-
-      // This time we process the last banner
-      .last()
-
-      // Find where the img element is
-      .find('img')
+    // This time we process the last banner
+    // Jump where the img element is
+    cy.get('#home div.banner-square-column:last() img')
 
       // Take the src attribute
       .invoke('attr', 'src')
@@ -86,11 +70,11 @@ describe('Check if the image exists in the right square', () => {
       // Add the prefix: https://butopea.com
       // Log the result, save the log too
       .then(src => {
-        cy.log(`Found image link: https://butopea.com${src}`)
+        cy.log(`Found image link: ${BUTOPEA}${src}`)
 
         cy.writeFile(
           'cypress/logs/image_link.txt', 
-          `Found image link: https://butopea.com${src}`, 
+          `Found image link: ${BUTOPEA}${src}`, 
           { flag: 'w+' }
         )
       })
@@ -101,14 +85,11 @@ describe('Check if the image exists in the right square', () => {
 describe('Click Testing', () => {
   it('Check', () => {
     // Visi the page first
-    cy.visit('https://butopea.com/')
+    cy.visit(BUTOPEA)
 
     // This is where the navigation is placed
-    cy.get('#home-tabs-wrapper div.tab:has(button)')
-
-      // We take the last one (New Arrivals)
-      .last()
-      .children('button')
+    // We take the last one (New Arrivals)
+    cy.get('#home-tabs-wrapper div.tab:has(button):last() button')
 
       // Simulating the click
       .click()
@@ -141,7 +122,7 @@ describe('Click Testing', () => {
             cy.wrap($anchor)
               .find('img.product-image__thumb')
               .invoke('attr', 'src')
-              .then(src => product.image_link = `https://butopea.com${src}`)
+              .then(src => product.image_link = `${BUTOPEA}${src}`)
 
             // Save the product's title
             cy.wrap($anchor)
