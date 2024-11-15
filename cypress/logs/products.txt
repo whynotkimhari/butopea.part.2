@@ -1,0 +1,98 @@
+[
+  {
+    "href": "/uveg-vaza-narancs-25-cm-donut-deja-193825",
+    "image_link": "/img/300/300/resize/catalog/Product_pictures/DEJA/deja-193825_1.jpg",
+    "title": "Üveg váza, narancs, 25 cm - DONUT",
+    "price": "6.764 Ft"
+  },
+  {
+    "href": "/csillargyertya-mustar-puder-bezs-4-darabos-zebra-deja-196018",
+    "image_link": "/img/300/300/resize/catalog/Product_pictures/DEJA/ deja-196018_1.jpg",
+    "title": "Csillárgyertya, mustár-púder-bézs 4 darabos – ZEBRA",
+    "price": "1.173 Ft"
+  },
+  {
+    "href": "/asztali-kepkeret-3-darabos-arany-kerettel-35x16-cm-nous-deja-193177",
+    "image_link": "/img/300/300/resize/catalog/Product_pictures/DEJA/ deja-193177_1.jpg",
+    "title": "Asztali képkeret 3 darabos, arany kerettel, 35x16 cm - NOUS",
+    "price": "6.213 Ft"
+  },
+  {
+    "href": "/klasszikus-gyertyatarto-uveg-puder-stalagnate-deja-193776",
+    "image_link": "/img/300/300/resize/catalog/Product_pictures/DEJA/deja-193776_1.jpg",
+    "title": "Klasszikus gyertyatartó, üveg, púder - STALAGNATE",
+    "price": "3.850 Ft"
+  },
+  {
+    "href": "/hazikos-szekreny-juta-muanyag-4-reszes-barna-feher-maisonnette-deja-188277",
+    "image_link": "/img/300/300/resize/catalog/Product_pictures/DEJA/deja-188277_1.jpg",
+    "title": "Házikós szekrény juta-műanyag, 4 részes, barna fehér - MAISONNETTE",
+    "price": "12.591 Ft"
+  },
+  {
+    "href": "/3-darabos-szett-gyertyatarto-uveg-kek-feher-zold-boise-deja-189169b",
+    "image_link": "/img/300/300/resize/catalog/Product_pictures/DEJA/deja-189169b_1.jpg",
+    "title": "3 darabos szett gyertyatartó, üveg, kék-fehér-zöld - BOISE",
+    "price": "4.165 Ft"
+  },
+  {
+    "href": "/uveg-vaza-sotetzold-25-cm-foret-noire-deja-181404",
+    "image_link": "/img/300/300/resize/catalog/Product_pictures/DEJA/deja-181404_1.jpg",
+    "title": "Üveg váza, sötétzöld, 25 cm - FORET NOIRE",
+    "price": "4.165 Ft"
+  },
+  {
+    "href": "/hazikos-szekreny-juta-muanyag-7-reszes-barna-feher-maisonnette-deja-188276",
+    "image_link": "/img/300/300/resize/catalog/Product_pictures/DEJA/deja-188276_1.jpg",
+    "title": "Házikós szekrény juta-műanyag, 7 részes, barna fehér - MAISONNETTE",
+    "price": "18.102 Ft"
+  },
+  {
+    "href": "/vaza-sotetkek-keramia-25-cm-tunis-deja-173036",
+    "image_link": "/img/300/300/resize/catalog/Product_pictures/DEJA/ deja-173036_1.jpg",
+    "title": "Váza, sötétkék kerámia 25 cm - TUNIS",
+    "price": "3.850 Ft"
+  },
+  {
+    "href": "/gyertyatarto-fem-arany-diner-chic-deja-164217b",
+    "image_link": "/img/300/300/resize/catalog/Product_pictures/DEJA/deja-164217b_1.jpg",
+    "title": "Gyertyatartó, fém, arany - DINER CHIC",
+    "price": "4.638 Ft"
+  },
+  {
+    "href": "/gyertyatarto-fem-fekete-diner-chic-deja-164217",
+    "image_link": "/img/300/300/resize/catalog/Product_pictures/DEJA/deja-164217_1.jpg",
+    "title": "Gyertyatartó, fém, fekete - DINER CHIC",
+    "price": "4.638 Ft"
+  },
+  {
+    "href": "/vaza-sotetkek-keramia-21-cm-tunis-deja-173018",
+    "image_link": "/img/300/300/resize/catalog/Product_pictures/DEJA/ deja-173018_1.jpg",
+    "title": "Váza, sötétkék kerámia 21 cm - TUNIS",
+    "price": "3.850 Ft"
+  },
+  {
+    "href": "/nap-formaju-faliora-36-cm-arany-roi-soleil-deja-203525",
+    "image_link": "/img/300/300/resize/catalog/Product_pictures/DEJA/ deja-203525_1.jpg",
+    "title": "Nap formájú falióra, 36 cm, arany - ROI SOLEIL",
+    "price": "4.638 Ft"
+  },
+  {
+    "href": "/kerek-etkezoasztal-kolappal-fekete-fem-labbal-90-cm-pierrot-deae-susan90-d",
+    "image_link": "/img/300/300/resize/catalog/Product_pictures/DEAE/deae-susan90[d]_1.jpg",
+    "title": "Kerek étkezőasztal, kőlappal, fekete, fém lábbal, 90 cm - PIERROT",
+    "price": "108.990 Ft"
+  },
+  {
+    "href": "/kerek-etkezoasztal-kolappal-fekete-fem-labbal-100-cm-pierrot-deae-susan100-d",
+    "image_link": "/img/300/300/resize/catalog/Product_pictures/DEAE/deae-susan100[d]_1.jpg",
+    "title": "Kerek étkezőasztal, kőlappal, fekete, fém lábbal, 100 cm - PIERROT",
+    "price": "122.990 Ft"
+  },
+  {
+    "href": "/kerek-etkezoasztal-fa-feher-fem-labbal-90-cm-blauche",
+    "image_link": "/img/300/300/resize/catalog/Product_pictures/DEAE/deae-pisa[d]_1.jpg",
+    "title": "Kerek étkezőasztal, fa, fehér, fém lábbal, 90 cm - BLAUCHE",
+    "price": "81.990 Ft"
+  }
+]
